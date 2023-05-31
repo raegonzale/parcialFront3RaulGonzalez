@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tarjeta {
+  width: 800px;
+  height: 50px;
+  background-color: #FAEBD7;
+  color: #3f3f3f ;
+  
+  display: table-cell;
+  vertical-align: middle;
+  border-style:double;
+}
+
+.formulario{
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;  
+  
+}
+
+.boton {
+  font-size:13px;
+  background-color: #3f3f3f;
+}
